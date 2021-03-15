@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 7px;
+    min-height: 100vh;
+    background: rgb(34, 102, 195);
+    background: linear-gradient(120deg, rgba(34, 102, 195, 0.9131361162629115) 0%, rgba(45, 253, 234, 1) 100%);
+}
+
+.exerciceContainer {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.tirageMotContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tirageOnlyContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    margin: 5px;
+    margin-right: 10px;
+}
+
+.solutionOnlyContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.notCorrected {
+    padding: 2.5px;
+    background-color: rgba(20, 17, 34, 0.685);
+}
+
+.good {
+    padding: 2.5px;
+    background-color: rgba(37, 194, 84, 0.685);
+    border: 2px solid green;
+}
+
+.wrong {
+    padding: 2.5px;
+    background-color: #EE3300;
+    border: 2px solid red;
+}
+
+.correctBtn {
+    display: block;
+    padding: 0.3em 1.2em;
+    margin: 20px auto;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #4eb5f1;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+
+.correctBtn:hover {
+    background-color: limegreen;
+    color: white;
+    cursor: not-allowed;
+}
+
+.tile {
+    padding: 0.25rem;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #f2d480;
+    /* width: 5px; */
+    font-size: 20px;
+    margin: 0.5px;
+    font-weight: 900;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.tile6 {
+    font-size: 20px;
+}
+
+.tile7 {
+    font-size: 16px;
+}
+
+.tile8 {
+    font-size: 13px;
+}
+
+.tile9 {
+    font-size: 10.2px;
+}
+
+.tile.clicked {
+    opacity: 0.5;
+}
